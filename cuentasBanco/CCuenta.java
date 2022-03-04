@@ -7,7 +7,7 @@ package cuentasBanco;
 public class CCuenta {
 
 
-    private String nombre;
+    private String nombrepersona;
     private String cuenta;
     private double saldo;
     private double tipoInteres;
@@ -73,7 +73,7 @@ public class CCuenta {
 	 * @return Devuelve el nombre
 	 */
 	private String getNombre() {
-		return nombre;
+		return nombrepersona;
 	}
 
 	/**
@@ -81,7 +81,7 @@ public class CCuenta {
 	 * @param nombre String con el nombre que se quiere introducir
 	 */
 	private void setNombre(String nombre) {
-		this.nombre = nombre;
+		this.nombrepersona = nombre;
 	}
 
 	/**
